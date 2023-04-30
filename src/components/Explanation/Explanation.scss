@@ -1,0 +1,44 @@
+.Explanation {
+    margin-left: 70px;
+    margin-right: 70px;
+
+    .heading {
+        margin-bottom: 70px;
+        
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 45px;
+
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-align: left;
+
+            color: #FFFFFF;
+        }
+    }
+
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 110px;
+        padding-right: 110px;
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 42.69%, rgba(33, 33, 33, 0.4) 100%);
+        border-radius: 100px;
+
+        p {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 45px;
+
+            text-align: justify;
+
+            color: #FFFFFF;
+        }
+    }
+}

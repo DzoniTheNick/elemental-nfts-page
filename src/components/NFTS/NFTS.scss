@@ -1,0 +1,61 @@
+.NFTs {
+
+    margin-left: 70px;
+    margin-right: 70px;
+
+    .heading {
+        margin-bottom: 30px;
+
+        p {
+            font-family: 'Futura';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 45px;
+
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-align: left;
+            
+            color: #FFFFFF;
+        }
+    }
+    
+    .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 42.69%, rgba(33, 33, 33, 0.4) 100%);
+        border-radius: 100px;
+
+        .nft-images {
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img { 
+                width: 310px;
+                height: 449px;
+            }
+        }
+        .description {
+            p {
+                margin-top: 80px;
+                margin-left: 110px;
+                margin-right: 110px;
+
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 45px;
+                
+                color: #FFFFFF;
+
+                text-align: justify;
+            }
+        }
+    }
+}

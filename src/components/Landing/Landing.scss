@@ -1,0 +1,104 @@
+.Landing {
+
+    margin-top: 135px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+    .container {
+        background: linear-gradient(223.75deg, #1C1C1C -26.31%, rgba(50, 50, 50, 0) 125.37%);
+        border-radius: 100px;
+
+        padding: 60px 200px 230px 200px;
+
+        .date {
+            margin-bottom: 50px;
+
+            font-family: 'Futura';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 45px;
+
+            letter-spacing: 4px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+
+        .logo {
+            width: 900px;
+        }
+
+        .content {
+            margin-top: 50px;
+
+            font-family: 'Futura';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 45px;
+
+            letter-spacing: 4px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+    }
+
+    .btn-container {
+        background: linear-gradient(180deg, #FFFFFF 8.33%, rgba(255, 255, 255, 0) 100%);
+        border-radius: 50px;
+        position: relative;
+        bottom: 70px;
+        width: 400px;
+        height: 70px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        .btn {
+            width: 398px;
+            height: 68px;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            margin: auto;
+    
+            background: #00B111;
+            border-radius: 50px;
+    
+            p {
+                font-family: 'Futura';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 13px;
+    
+                letter-spacing: 8px;
+                text-transform: uppercase;
+    
+                color: #FFFFFF;
+            }
+        }
+    }
+    
+
+    #notice {
+        position: relative;
+        bottom: 70px;
+
+        margin-top: 20px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+}

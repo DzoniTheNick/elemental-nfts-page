@@ -1,24 +1,26 @@
+// Libraries import
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+// Styling import
+import './App.scss';
+
+// Components import
+import Header from './components/Header/Header'
+import Landing from './components/Landing/Landing';
+import NFTs from './components/NFTS/NFTS';
+import Footer from './components/Footer/Footer'
+import Astrology from './components/Astrology/Astrology';
+import Explanation from './components/Explanation/Explanation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Landing />
+      <NFTs />
+      <Astrology />
+      <Explanation />
+      <Footer />
     </div>
   );
 }

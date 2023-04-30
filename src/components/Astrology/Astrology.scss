@@ -1,0 +1,157 @@
+.Astrology {
+
+    margin-left: 70px;
+    margin-right: 70px;
+
+    .heading {
+        margin-bottom: 30px;
+
+        p {
+            font-family: 'Futura';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 45px;
+            
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-align: left;
+            
+            color: #FFFFFF;
+        }
+    }
+
+    .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 110px;
+        padding-right: 110px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 42.69%, rgba(33, 33, 33, 0.4) 100%);
+        border-radius: 100px;
+
+        .elements {
+            width: 100%;
+
+            display: flex;
+            justify-content: space-between;
+
+            .element-card {
+                width: 220px;
+
+                img {
+                    width: 220px;
+                    margin: 0;
+                    border: 10px solid #FFFFFF;
+                    border-radius: 10px;
+                }
+                #element-name {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-top: 50px;
+
+                    font-family: 'Platonica';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 38px;
+
+                    letter-spacing: 6px;
+
+                    color: #FFFFFF;
+
+                    text-align: left;
+                }
+                #element-description {
+                    margin-left: 10px;
+                    margin-right: 10px;
+
+                    font-family: 'Arial';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+                    
+                    color: #FFFFFF;
+
+                    text-align: left;
+                }
+            }
+        }
+        
+        .description {
+            margin-top: 40px;
+
+            p {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 45px;
+
+                color: #FFFFFF;
+
+                text-align: justify;
+            }
+        }
+
+        .elements-descriptions {
+            .element {
+                .element-heading {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 32px;
+                    
+                    letter-spacing: 4px;
+                    text-transform: uppercase;
+                    text-align: left;
+                    
+                    color: #FFFFFF;
+                }
+
+                .element-content {
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+                    
+                    color: #FFFFFF;
+
+                    text-align: justify;
+                }
+            }
+        }
+
+        .less {
+            width: 180px;
+
+            margin-top: 50px;
+
+            background: #2E2E2E;
+            border-radius: 20px;
+
+            p {
+                padding: 20px 10px 20px 10px;
+                
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 13px;
+
+                letter-spacing: 3px;
+                text-transform: uppercase;
+
+                color: #C9C9C9;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.Header {
+
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    background: #121212;
+
+    .container {
+        width: 670px;
+
+        margin-left: 70px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .btn {
+            background: #2E2E2E;
+            border-radius: 20px;
+
+            padding: 10px 20px 10px 20px;
+
+            p {
+                font-family: 'Futura';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 13px;
+
+                letter-spacing: 3px;
+                text-transform: uppercase;
+
+                color: #B6B4B4;
+            }
+        }
+    }
+}
